@@ -4,7 +4,7 @@ const mobileNav = document.querySelector('.mobile-nav');
 const mobileNavLinks = document.querySelectorAll('.mobile-nav .links');
 
 burger.addEventListener('click', () => {
-    mobileNav.classList.add('come-in');
+    mobileNav.classList.toggle('come-in');
 
 });
 mobileNavLinks.forEach((link) => {
